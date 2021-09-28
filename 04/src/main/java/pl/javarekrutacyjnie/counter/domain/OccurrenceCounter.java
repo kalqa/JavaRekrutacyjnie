@@ -1,3 +1,5 @@
+package pl.javarekrutacyjnie.counter.domain;
+
 public class OccurrenceCounter {
 
     private final LetterCounter letterCounter;

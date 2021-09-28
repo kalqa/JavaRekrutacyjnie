@@ -1,3 +1,8 @@
+package pl.javarekrutacyjnie.counter;
+
+import pl.javarekrutacyjnie.counter.domain.OccurrenceCounter;
+import pl.javarekrutacyjnie.counter.domain.Response;
+
 public class Exercise4 {
 
     public static void main(String[] args) {

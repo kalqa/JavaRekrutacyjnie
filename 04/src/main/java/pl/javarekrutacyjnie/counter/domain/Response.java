@@ -1,3 +1,5 @@
+package pl.javarekrutacyjnie.counter.domain;
+
 public class Response {
 
     private static final String LETTERS_MSG = "litery";
