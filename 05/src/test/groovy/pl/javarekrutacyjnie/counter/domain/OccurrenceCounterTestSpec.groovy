@@ -16,9 +16,10 @@ class OccurrenceCounterTestSpec extends Specification {
                     1,
                     1,
                     1)
+        String givenInput = "aa2, "
 
         when:
-            Response occurrences = occurrenceCounter.calculateOccurrences("aa2, ")
+            Response occurrences = occurrenceCounter.calculateOccurrences(givenInput)
 
         then:
             occurrences == expectedResponse
