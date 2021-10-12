@@ -11,12 +11,12 @@ class OccurrenceCounterTestSpec extends Specification {
 
     def "should return correct response"() {
         given:
-        Response expectedResponse = new Response(
-                    2,
-                    1,
-                    1,
-                    1)
-        String givenInput = "aa2, "
+            Response expectedResponse = new Response(
+                        2,
+                        1,
+                        1,
+                        1)
+            String givenInput = "aa2, "
 
         when:
             Response occurrences = occurrenceCounter.calculateOccurrences(givenInput)
